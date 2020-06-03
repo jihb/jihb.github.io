@@ -1,4 +1,4 @@
-![logo](favicon.ico)
+![logo](_images/favicon.ico)
 
 # 关键笔记
 
