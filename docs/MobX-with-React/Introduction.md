@@ -4,9 +4,9 @@
 
 *此站点主要给出如何在React函数组件和Hooks中使用MobX的示例。在类组件中使用也是类似的。在一些有类组件特殊行为的情况中，我们会提到并提供合适的示例*
 
-你可以选择查看一下下面的一个备忘录应用的示例，或者继续了解[为什么要去监听状态](MobX-with-React/监听状态.md)或者是[怎么样管理状态](MobX-with-React/管理状态.md)。
+你可以选择查看一下下面的一个备忘录应用的示例，或者继续了解[为什么要去监听状态](MobX-with-React/Observe-state/How-to-observe.md)或者是[怎么样管理状态](MobX-with-React/Manage-state/How-to-manage-state.md)。
 
-你想要迁移至Hooks吗？可以看一下我们的[迁移指南](MobX-with-React/迁移指南.md)
+你想要迁移至Hooks吗？可以看一下我们的[迁移指南](MobX-with-React/Recipes/Migration-guide.md)
 
 ```react
 import React from 'react'
