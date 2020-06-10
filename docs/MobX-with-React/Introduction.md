@@ -2,7 +2,7 @@
 
 在React中使用MobX让组件的响应变得容易。而且它也可以处理好整个应用的状态。
 
-*此站点主要给出如何在React函数组件和Hooks中使用MobX的示例。在类组件中使用也是类似的。在一些有类组件特殊行为的情况中，我们会提到并提供合适的示例*
+> 此站点主要给出如何在React函数组件和Hooks中使用MobX的示例。在类组件中使用也是类似的。在一些有类组件特殊行为的情况中，我们会提到并提供合适的示例
 
 你可以选择查看一下下面的一个备忘录应用的示例，或者继续了解[为什么要去监听状态](MobX-with-React/Observe-state/How-to-observe.md)或者是[怎么样管理状态](MobX-with-React/Manage-state/How-to-manage-state.md)。
 
