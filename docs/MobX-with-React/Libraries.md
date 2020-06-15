@@ -23,3 +23,19 @@
 🤷‍♂️ *类组件依然在你的代码中，但是你也可以(并且希望)使用Hooks*
 
 👌使用 `mobx-react@6`，其中包含 `mobx-react-lite` ，并且会将它自动用于函数组件.
+
+> `mobx-react@6` 中的`Provider/inject` 已经迁移到了[React Context](https://reactjs.org/docs/context.html)，它可能会在未来的版本中被完全删除。考虑直接使用[Context](https://mobx-react.js.org/recipes-context) 
+
+## 全部使用Hooks？
+
+🤷‍♂️ *代码中没有类组件?*
+
+👌 直接使用 `mobx-react-lite` 作为一个更小更快的变体.
+
+> 该库不包括传播状态的方法(Provider, inject)，查看更多关于[访问状态](https://mobx-react.js.org/state-how#accessing-a-state)
+
+
+
+## 什么版本的`mobx`?
+
+目前mobx有两个维护版本，V4 (LTS)和V5。您可以将它们中的任何一个与上面提到的任何库一起使用。主要的区别是你是否需要支持IE11，因为IE11不支持ES6代理(MobX V5依赖于它们)。
